@@ -12,4 +12,6 @@ public interface TarefasRepository extends MongoRepository<TarefasEntity, String
 
     List<TarefasEntity> findByEmailUsuario(String email);
 
+
+
 }
